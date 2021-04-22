@@ -1,0 +1,138 @@
+@media only screen and (max-width: 720px){
+    h1{
+        font-family: 'Lato';
+        font-size: 25 px;
+        font-weight: 600;
+        text-align: center;
+    }
+    #menu{
+        display: flex;
+    }
+    #logo{
+        padding-left: 0px;
+    }
+    #burger{
+        padding-top: 0px;
+        padding-right: 0px;
+        display: inline-block;
+        vertical-align: right;
+      padding-left: 290px;
+    }
+
+    p{
+        font-family: 'Lato';
+        font-size: 16;
+        font-weight: 500;
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+    .button1{
+        border-radius: 30px 30px 30px 30px;
+        background-color: #0AA8A7;
+        border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Lato';
+    color: aliceblue;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-items: center;
+    align-items: center;
+    }
+
+    #bloc1{
+        background-color: #EDF6F5;
+    }
+
+    h2{
+        font-family: 'Lato';
+        font-size: 20px;
+        font-weight: 550px;
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    
+    }
+
+    #clean{
+        background-color: white; 
+        align-items: center;
+        border-radius: 20px 20Px 20px 20px;
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+    #object{
+        background-color: white; 
+        align-items: center;
+    }
+    #Faster{
+        background-color: white; 
+        align-items: center;
+    }
+    #cloud{
+        background-color: white; 
+        align-items: center;
+    }
+
+
+    h3{
+        font-size: 18px;
+        font-weight: 450px;
+        text-align: center;
+    }
+
+    #bloc1 img{
+        padding-right: 50%;
+        padding-left: 50%;
+    }
+     a{
+        color: #0AA8A7;
+    }
+    #bloc3{
+        background-color: #EDF6F5;
+    }
+
+    #bloc5{
+        background-color:#EDF6F5 ;
+        border-radius: 20% 20% 20% 20%;
+    }
+
+   .button2{
+        margin-right: 40%;
+        margin-left: 40%;
+        border-radius: 30px 30px 30px 30px;
+        background-color: #0AA8A7;
+        border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Lato';
+    color: aliceblue;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-items: center;
+    align-items: center;
+   }
+    
+
+    #bloc1 svg path{
+        fill:#0AA8A7
+ ;
+        width: 8%;
+    }
+
+    #footer{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        gap: 5 px 5px
+    }
+
+}
